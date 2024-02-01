@@ -50,7 +50,8 @@ html{
 #navbar ul{
     display: flex;
     font-family: 'Baloo Bhai', cursive;
-    padding: 15px;
+    gap: 20px;
+    
 }
 
 #navbar ul li{ 
@@ -61,7 +62,7 @@ html{
 #navbar ul li a{
     color: white;
     display: block;
-    padding: 4px 110px;
+    /*padding: 4px 110px;*/
     border-radius: 20px;
     text-decoration: none;
 }
@@ -85,7 +86,7 @@ html{
     content: "";
     position: absolute;
     background: url('../2.jpg') no-repeat center center/cover;
-    height: 586px;
+    height: 80vh;
     top:0px;
     left:0px;
     width: 100%;
